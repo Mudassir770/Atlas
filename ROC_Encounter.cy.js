@@ -72,30 +72,30 @@ describe('Open Atlas WebApp and create appointments and encounters', () => {
     cy.get('button[type="submit"].btn-primary').click(); // Save button
 
     
-// //                                       Provider Appointment
+//                                       Provider Appointment
 
-//         // Select Patient
-//         cy.get('#customerListWrap > app-shared-lead-list > div.pb-3 > div > div.active.media-list.wound.w_oth.ng-star-inserted > div').click();
-//         cy.get('#Leadinfo > div.from-btnlist > div:nth-child(4) > div.d-flex.align-items-center.justify-content-between > span > img').click();
-//         // Select APS as per your own choice
-//         cy.wait(7000);
-//         cy.get("#mat-select-0").click().type('Mudassir');
-//         cy.get("#mat-option-31").click(); // Mudassir, S
+        // Select Patient
+        cy.get('#customerListWrap > app-shared-lead-list > div.pb-3 > div > div.active.media-list.wound.w_oth.ng-star-inserted > div').click();
+        cy.get('#Leadinfo > div.from-btnlist > div:nth-child(4) > div.d-flex.align-items-center.justify-content-between > span > img').click();
+        // Select APS as per your own choice
+        cy.wait(7000);
+        cy.get("#mat-select-0").click().type('Mudassir');
+        cy.get("#mat-option-31").click(); // Mudassir, S
         
-//         // Medical Director
-//         cy.wait(3000);
-//         cy.get('#mat-select-2').click().type('Mudassir');
-//         cy.get('#mat-option-19').click(); // Mudassir, S
+        // Medical Director
+        cy.wait(3000);
+        cy.get('#mat-select-2').click().type('Mudassir');
+        cy.get('#mat-option-19').click(); // Mudassir, S
 
-//         // Date for appoitment
-//         // Kindly change the date accordingly
-//         cy.get('#followupdate').type('2024-10-27T08:30') 
-//         // Date format is YYYY-MM-DD & T08:30 is the time of appointment in short 22nd october 2024 at 8:30 am
+        // Date for appoitment
+        // Kindly change the date accordingly
+        cy.get('#followupdate').type('2024-10-27T08:30') 
+        // Date format is YYYY-MM-DD & T08:30 is the time of appointment in short 22nd october 2024 at 8:30 am
 
-//         cy.get('#validationTooltip01').select('Home'); // Service Location Type
-//         cy.get('select#validationTooltip01[name="PlaceOfService"]').select('Home'); // Place of Service
-//         cy.get('#Notes').type('Test'); // Adding Notes
-//         cy.get('button[type="submit"].btn-primary').click(); // Save button
+        cy.get('#validationTooltip01').select('Home'); // Service Location Type
+        cy.get('select#validationTooltip01[name="PlaceOfService"]').select('Home'); // Place of Service
+        cy.get('#Notes').type('Test'); // Adding Notes
+        cy.get('button[type="submit"].btn-primary').click(); // Save button
 
 
   });
