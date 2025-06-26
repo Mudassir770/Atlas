@@ -17,7 +17,7 @@ describe('Open Atlas WebApp and onboard a patient', () => {
     cy.viewport(1500, 814);
 
     // Visit login page
-    cy.visit('https://united.octdaily.com/public/login', {timeout: 120000, waitUntil: 'domcontentloaded'});
+    cy.visit('xyz', {timeout: 120000, waitUntil: 'domcontentloaded'});
     // cy.wait(50000);
 
     // Log in with email and password
