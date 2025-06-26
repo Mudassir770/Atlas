@@ -1,7 +1,7 @@
 // describe('Open Atlas WebApp and onboard a patient', () => {
 //   it('Atlas', () => {
 //     cy.viewport(1500, 814);
-//     cy.visit('https://united.octdaily.com/public/login');
+//     cy.visit('xyz');
 //     cy.get('body > app-root > app-public-layout > app-login-start > div > div > div > app-login2 > form > div > div:nth-child(1) > input').clear().type('mudassir.hussain@octdaily.com');
 //     cy.get('body > app-root > app-public-layout > app-login-start > div > div > div > app-login2 > form > div > div:nth-child(2) > input').clear().type('123');
 //     cy.get('body > app-root > app-public-layout > app-login-start > div > div > div > app-login2 > form > div > p > button').click();
@@ -36,7 +36,7 @@
 //     cy.viewport(1500, 814);
 
 //     // Visit login page
-//     cy.visit('https://united.octdaily.com/public/login');
+//     cy.visit('xyz');
 
 //     // Log in with email and password
 //     cy.get('body > app-root > app-public-layout > app-login-start > div > div > div > app-login2 > form > div > div:nth-child(1) > input')
@@ -122,7 +122,7 @@ describe('Open Atlas WebApp and onboard a patient', () => {
     cy.viewport(1500, 814);
 
     // Visit login page
-    cy.visit('https://united.octdaily.com/public/login');
+    cy.visit('xyz');
 
     // Log in with email and password
     cy.get('body > app-root > app-public-layout > app-login-start > div > div > div > app-login2 > form > div > div:nth-child(1) > input')
