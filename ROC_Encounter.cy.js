@@ -5,7 +5,7 @@ describe('Open Atlas WebApp and create appointments and encounters', () => {
     cy.viewport(1440, 766); // Full HD resolution
 
     // Visit login page
-    cy.visit('https://united.octdaily.com/public/login');
+    cy.visit('xyz');
 
     // Log in with email and password
     cy.get('body > app-root > app-public-layout > app-login-start > div > div > div > app-login2 > form > div > div:nth-child(1) > input')
